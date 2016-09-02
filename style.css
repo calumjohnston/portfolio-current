@@ -98,6 +98,7 @@ footer{
 @media screen and (max-width : 320px){ 
     #wrapper{
         display:block;
+        background-image:none;
         padding-top:40px;
     }
     #main{
