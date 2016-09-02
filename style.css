@@ -104,5 +104,12 @@ footer{
         width:100vw;
         min-height:500px;
     }
+    .top{
+        display:block;
+    }
+    .top img{
+        height:50vw;
+            transform: translateX(50%);
+    }
 }
    
