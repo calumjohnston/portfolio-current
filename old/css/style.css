@@ -88,6 +88,9 @@ img{
     display: block;
     clear: both;
 }
+.container h1,.container h2{
+    color:#222;
+}
 section{
     padding: 75px 20px;
 }
@@ -167,7 +170,7 @@ header .toggle-menu{
 }
 
 .splash{
-    background: #fbc93d;
+    background: #34495e;
     height: 100vh;
     overflow: hidden;
     position: relative;
