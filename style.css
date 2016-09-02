@@ -95,7 +95,7 @@ footer{
     font-size:18px;
 }
 
-@media screen and (max-width : 320px){ 
+@media screen and (max-width : 1020px){ 
     #wrapper{
         display:block;
         background-image:none;
