@@ -110,7 +110,7 @@ footer{
     }
     .top img{
         height:50vw;
-            transform: translateX(50%);
+        margin-left:25%;
     }
 }
    
