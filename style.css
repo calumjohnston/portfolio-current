@@ -98,33 +98,35 @@ footer{
 @media screen and (max-width : 1020px){ 
     #wrapper{
         display:block;
-        background-image:none;
-        padding-top:40px;
+        padding-top:10vh;
     }
     #main{
-        width:100vw;
-        min-height:100%;
+        min-height:80%;
+        padding-top:5vh;
+        margin-left:10vw;
+        margin-right:10vw;
+        width:80vw;
     }
     .top{
         display:block;
     }
     .top img{
-        height:50vw;
+        height:40vw;
         margin-left:25%;
     }
     #content h1{ 
-    font-size:34px; 
+    font-size:9vw; 
     font-weight:bold;
     font-weight:300;
     margin-bottom:23px;
     }
     #content h3{ 
         font-weight:200;
-        font-size:20px; 
+        font-size:5vw; 
     }
     .soon{
-        margin-top:40px;
-        font-size:14px!important;
+        margin-top:60px;
+        font-size:4vw!important;
         font-weight:400!important;
     }
 }
