@@ -95,7 +95,7 @@ footer{
     font-size:18px;
 }
 
-@media screen and (max-width : 400px){ 
+@media screen and (max-width : 641px){ 
     #wrapper{
         display:block;
         padding-top:10vh;
