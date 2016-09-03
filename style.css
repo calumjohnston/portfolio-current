@@ -1,4 +1,16 @@
-html, body, div, span, applet, object, iframe,
+.example {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -19,17 +31,22 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 *, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 #wrapper{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content:center;
-    align-items:center;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     height:100vh;
     max-height:100%;
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(30deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("bg.jpg");
     background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("bg.jpg");
     background-size:cover;
     font-family:Source Sans Pro,Arial;
@@ -44,8 +61,12 @@ time, mark, audio, video {
 }
 
 .top{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top:80px;
 }
 .top img{
@@ -54,9 +75,16 @@ time, mark, audio, video {
     margin-bottom:30px;
 }
 #content{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 #content h1, #content h3{
     text-align:center;
