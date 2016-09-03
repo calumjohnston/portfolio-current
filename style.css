@@ -102,7 +102,7 @@ footer{
         padding-top:40px;
     }
     #main{
-        width:100%;
+        width:100vw;
         min-height:100%;
     }
     .top{
@@ -111,6 +111,21 @@ footer{
     .top img{
         height:50vw;
         margin-left:25%;
+    }
+    #content h1{ 
+    font-size:34px; 
+    font-weight:bold;
+    font-weight:300;
+    margin-bottom:23px;
+    }
+    #content h3{ 
+        font-weight:200;
+        font-size:20px; 
+    }
+    .soon{
+        margin-top:40px;
+        font-size:14px!important;
+        font-weight:400!important;
     }
 }
    
