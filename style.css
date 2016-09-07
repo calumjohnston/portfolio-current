@@ -33,9 +33,8 @@ time, mark, audio, video {
 *, *:before, *:after {
     box-sizing: border-box;
 }
-body{
-    overflow: hidden;
-    overflow-y: auto;
+body, html{
+    overflow-x: hidden;
 }
 #wrapper{
     display:-webkit-box;
