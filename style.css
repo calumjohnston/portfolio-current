@@ -144,3 +144,8 @@ footer{
         display:none;
     }
 }
+@media screen and (max-width:420px){
+    #wrapper{
+        padding-top:2vh!important;
+    }
+}
