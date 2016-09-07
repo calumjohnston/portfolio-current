@@ -124,3 +124,9 @@ footer{
 .font-med{
     font-size:18px;
 }
+
+@media screen and (max-width:720px){
+    #main{
+        width:90vw;
+    }
+}
