@@ -126,6 +126,10 @@ footer{
 }
 
 @media screen and (max-width:720px){
+    #wrapper{
+        align-items:flex-start;
+        padding-top:5vh;
+    }
     #main{
         width:80vw;
         height:70vh;
