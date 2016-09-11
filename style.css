@@ -122,15 +122,17 @@ body, html{
 #menu-content h1, #menu-content h3{
     text-align:center;
     opacity:0.75;
-    letter-spacing:1.3pt;
+    
 }
 #menu-content h1{ 
+    letter-spacing:1.3pt;
     font-size:34px; 
     font-weight:bold;
     font-weight:300;
-    margin-bottom:23px;
+    margin-bottom:5px;
 }
 #menu-content h3{ 
+    letter-spacing:0.7pt;
     font-weight:200;
     font-size:20px; 
 }
