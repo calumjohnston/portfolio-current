@@ -236,4 +236,7 @@ ul li:hover{
   #menu{
       display:none;
   }
+  h1,h3{
+      color:#222;
+  }
 }
