@@ -40,6 +40,8 @@ body, html{
     font-size:18px;
 }
 .wrapper{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
 #section-wrapper{
@@ -48,16 +50,24 @@ body, html{
     font-family:Source Sans Pro,Arial;
     width:100vw;
     max-width:100%;
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
 }
 .section{
     background-color:red;
     height:100vh;
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
 }
 #menu{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     left:0;
     top:0;
     bottom:0;
@@ -72,10 +82,19 @@ body, html{
 }
 .menu-position{
     position:fixed;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 #tag{
     font-weight:bold;
@@ -156,12 +175,22 @@ ul li:hover{
 }
 
 #section-one{
+   background-image: -webkit-linear-gradient(30deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("bg.jpg");
    background-image: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("bg.jpg");
    color:#eee;
+   display:-webkit-box;
+   display:-ms-flexbox;
    display:flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
 }
 #one-content{
     line-height:36px;
@@ -185,8 +214,13 @@ ul li:hover{
         display:none;
     }
     #menu{
-        justify-content:center;
-        align-items:center;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                    -ms-grid-row-align:center;
+                align-items:center;
     }
     img{
         display:none;
