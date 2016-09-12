@@ -81,6 +81,8 @@ body, html{
     
 }
 .menu-position{
+    left:0;
+    top:0;
     position:fixed;
     display:-webkit-box;
     display:-ms-flexbox;
