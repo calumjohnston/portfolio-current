@@ -235,6 +235,7 @@ background-image: linear-gradient(30deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 22
     }
     .menu-position{
         width:180px;
+        top:10px;
     }
     span.top{
         display:none;
